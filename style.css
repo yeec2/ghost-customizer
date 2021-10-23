@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body {
+    font-size: 18pt;
+    color: #53587d;
+    background-color: #d7d7d7;
+}
+
+#profileContainer {
+    display: flex;
+    border-radius: 10px;
+    height: 500px;
+    margin: 30px 70px;
+}
+
+#characterContainer {
+    background-color: #53587d;
+    background-image: url("img/ghost1.png");
+    background-position: center;
+    background-size: cover;
+    max-width: 400px;
+    flex:2;
+}
+
+#statsContainer {
+    flex:3;
+    padding: 20px
+}
+
+.statsHeading {
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32pt;
+    width: 100%;
+    color: black;
+}
+
+#statsTable {
+    width: 100%;
+}
+
+#statsTable td:first-child {
+    font-family: 'Dosis', sans-serif;
+    text-align: right;
+    color: #9F5F80;
+    width: 50%;
+    padding: 2px;
+}
+
+#statsTable td {
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    color: #4a4a4a;
+}
+
+.buttonClass {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+    padding: 10px 20px;
+}
+
+.sliderContainerClass {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+}
+
+.sliderClass {
+    width: 100%;
+    margin: 0px 5px;
+}
+
+#createdContainer {
+    display: block;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12pt;
+}
